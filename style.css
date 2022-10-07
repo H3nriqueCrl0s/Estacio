@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+/*cabecalho*/
+
+#fina a:hover{
+  color: rgb(15, 17, 136);
+
+}
+
+.titulo {
+  border: 2px solid #000;
+  background-color: aliceblue;
+  border-radius: 1em;
+  width: 450px;
+  padding: 15px;
+  text-align:center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+footer {
+
+  background-color: rgb(37, 37, 39);
+    padding: 1em;
+    text-align:center;
+    margin: 0 auto;
+    color: #FFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body{ 
+    
+    
+    background-image: url('radiofundo.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+
+
+#cima { background-color: rgb(55, 55, 192) ;
+
+}
+form {
+background-color: aliceblue;
+    margin: 0 auto;
+    width: 400px;
+ padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+   
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+
+    font: 1em sans-serif;
+  
+  
+    width: 300px;
+    box-sizing: border-box;
+  
+
+    border: 1px solid rgb(12, 3, 3);
+  }
+  
+  input:focus, textarea:focus {
+
+    border-color: #000;
+  }
+  
+  textarea {
+
+    vertical-align: top;
+  
+
+    height: 5em;
+  }
+  
+  .button {
+  
+    padding-left: 90px; 
+  }
+  
+  button {
+
+    margin-left: .5em;
+  }
+
+ .caixa {
+ background-color: aliceblue; border: 3px solid rgb(10, 3, 3);
+  border-radius: 1em ;
+  width: 350px;
+  height: 370px;
+  padding: 1em;
+text-align:center;
+margin: 0 auto;
+display: inline-block;
+margin: 20px;
+margin-top: 150px;
+margin-bottom: 200px;
+
+
+ }
+ .caixa h3{
+margin: 10px;
+
+ }
+ #caixapai {
+  margin: 0 auto;
+  align-items: center;
+ }
+ .logo {
+
+
+    height: 9.5%;
+    background-color: rgb(232, 233, 243) ; border: 1px solid rgb(10, 3, 3);
+    float:left;
+ }
+.bot1 {
+
+
+margin: auto;
+
+
+
+}
+ .bot1 a{
+  background-color: rgb(238, 192, 10);
+  color: rgb(8, 7, 7);
+  border: 1px solid rgb(15, 15, 15);
+ border-radius: 40%;
+ width: 270px;
+ padding: 2px;
+
+ padding-left: 15px;
+ padding-right: 15px;
+ transition: background .4s;
+
+ 
+
+
+
+ }
+ .bot1 a:hover{
+  background-color: rgb(24, 139, 233);
+  color: rgb(245, 238, 238);
+  border: 1px solid rgb(0, 0, 0);
+ border-radius: 40%;
+ width: 270px;
+ padding: 2px;
+ padding-left: 15px;
+ padding-right: 15px;
+
+ }
+
+ .bottext{
+  color: rgb(2, 1, 1);
+  text-decoration-line: none;
+ }
+
+
+
+/*/produtos*/
+ .produtos {
+  border : 1px  solid rgb(10, 3, 3);
+   border-radius: 1em;
+    background-color: aliceblue; 
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+ }
+ .produtos ul{
+  padding-left: 130px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+list-style: none;
+ }
+ .produtos H3{
+  padding-left: 140px;
+ }
+ .produtos a{
+  background-color: rgb(238, 192, 10);
+  color: rgb(10, 9, 9);
+  border: 1px solid rgb(12, 11, 11);
+ border-radius: 40%;
+ text-decoration: none;
+ transition: background .4s;
+ padding: 5px;
+ }
+.produtos a:hover {
+  background-color: rgb(24, 139, 233);
+  color: rgb(245, 238, 238);
+  border: 1px solid rgb(0, 0, 0);
+ border-radius: 40%;
+}
+.produtos img{
+  border: 1px solid rgb(0, 0, 0);
+}
+/*/produtos*/
+
+/*/carrinhos*/
+#tabela {
+  background-color: white;
+   margin:0 auto;
+     width: 50%;
+      height: 50%;
+      border: solid 2px black;
+
+}
+#tabela th,td,tr{
+  border: solid 3px black;
+}
+
+.butcar a{
+  width: 300px; 
+  text-align:center;
+   background-color: rgb(238, 192, 10);
+   color: rgb(14, 12, 12);
+     border: 1px solid rgb(0, 0, 0); 
+     margin: 0 auto;
+     border-radius: 60%;
+     padding: 12px; 
+   margin-bottom: 20px;
+   margin-top: 20px;
+   text-decoration: none;
+   transition: background .4s;
+ 
+}
+.butcar a:hover {
+  width: 350px; 
+  text-align:center;
+   background-color: rgb(24, 139, 233);
+   color: rgb(250, 244, 244);
+     border: 1px solid rgb(0, 0, 0); 
+     margin: 0 auto;
+     border-radius: 60%;
+     padding: 12px; 
+   margin-bottom: 20px;
+   margin-top: 20px;
+   text-decoration: none;
+}
+.butcar {
+  width: 300px; 
+  text-align:center;
+  
+   color: rgb(10, 10, 10);
+    
+     margin: 0 auto;
+
+     padding: 12px; 
+   margin-bottom: 20px;
+   margin-top: 20px;
+   text-decoration: none;
+ 
+}
